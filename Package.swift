@@ -16,7 +16,7 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "Swift-YapDatabase", url: "https://github.com/mickeyl/SwiftYapDatabase", .branch("master")),
-        .package(name: "MessagePacker", url: "https://github.com/hirotakan/MessagePacker.git", .upToNextMajor(from: "0.4.5")),
+        .package(name: "MessagePacker", url: "https://github.com/hirotakan/MessagePacker", .upToNextMajor(from: "0.4.5")),
         .package(name: "ULID.swift", url: "https://github.com/yaslab/ULID.swift", .upToNextMajor(from: "1.1.0")),
     ],
     targets: [
